@@ -10,10 +10,8 @@ void BubbleSort(int *array, int n);
 
 //Quick Sort--------------
 
-void swapping(int &a, int &b);
+void printArray(int *array, int n);
+void quickSort(int *array, int low, int high);
 
-void display(int *array, int size);
-
-void bubbleSort(int *array, int size);
 
 #endif // PROBLEM4_H
