@@ -235,12 +235,25 @@ int array[] = {94, 42, 50, 95, 333, 65, 54, 456, 1, 1234};
 
 
 
+// QUICK SORT-------------
+
+
+int array[] = {95, 45, 48, 98, 1, 485, 65, 478, 1, 2325};
+    int n = sizeof(array)/sizeof(array[0]);
+
+    std::cout << "Before Quick Sort :" << std::endl;
+    printArray(array, n);
+
+    quickSort(array, 0, n);
+
+    std::cout << "After Quick Sort :" << std::endl;
+    printArray(array, n);
+    
+return (0);
 
 
 
-
-
-
+}
 
 
 
