@@ -10,10 +10,34 @@
 
 int main()
 {
-    std::string mystring = "Here my string";
+    std::string mystring = "BSCV COMPUTER SCIENCE - LAB01";
     std::cout << mystring << std::endl;
-    // call a function here (define in problem1.cc)
-    example_function();
-    std::cout << "Good luck students" << std::endl;
+
+    /*Problem 1*/
+
+    question1();
+    question2();
+    question3();
+    question4();
+    question5();
+
+
+    /*Problem 2*/
+    problem2();
+
+    /*Problem 3*/
+    swapversion1();
+    swapversion2();
+
+    /*Problem 4*/
+    bubblesort();
+    quicksort();
+
+    /*Problem 5*/
+    transpose();
+    flatten();
+    pascaltriangle();
+
+
     return 0;
 }

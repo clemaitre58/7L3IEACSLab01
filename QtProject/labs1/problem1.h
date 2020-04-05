@@ -3,5 +3,9 @@
 
 
 // prototype for my function
-void example_function();
+void question1();
+void question2();
+void question3();
+void question4();
+void question5();
 #endif // PROBLEM1_H
